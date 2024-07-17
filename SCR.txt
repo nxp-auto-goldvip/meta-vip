@@ -13,12 +13,12 @@ BSP packages provided by meta-vip
 --------------------------------------------
 
 Package:                     imx-firmware.git
-Version:                     git (commit f775d53ca3a478c85e8c8a880e44cc269bd14db0)
+Version:                     git (commit 2afa15e77f0b58eade42b4f59c9215339efcca66)
 Outgoing License:            LA_OPT_NXP_Software_License v57 July 2024 - Additional distribution license granted, license in Section 2.3 applies
 License File:                LICENSE.txt
 Type of Content:             binary
 Description and comments:    BSP firmware - Bluetooth and WIFI
-Release Location:            https://github.com/NXP/imx-firmware -b lf-6.1.22_2.0.0
+Release Location:            https://github.com/NXP/imx-firmware -b lf-6.6.3_1.0.0
 Origin:                      brcm: Broadcom Corporation (LA_OPT_NXP_Software_License - see appendix)
                              cyw-wifi-bt: Cypress Semiconductor Corporation (LA_OPT_NXP_Software_License - see appendix)
                              nxp: NXP (LA_OPT_NXP_Software_License)
