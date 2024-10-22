@@ -7,3 +7,31 @@ Type of Content:             Yocto recipe files
 Description and comments:    Yocto Layer for common components of NXP Vehicle Integration Platforms (VIP)
 Release Location:            https://github.com/nxp-auto-goldvip/meta-vip
 Origin:                      NXP
+
+--------------------------------------------
+BSP packages provided by meta-vip
+--------------------------------------------
+
+Package:                     imx-firmware.git
+Version:                     git (commit f775d53ca3a478c85e8c8a880e44cc269bd14db0)
+Outgoing License:            LA_OPT_NXP_Software_License v57 July 2024 - Additional distribution license granted, license in Section 2.3 applies
+License File:                LICENSE.txt
+Type of Content:             binary
+Description and comments:    BSP firmware - Bluetooth and WIFI
+Release Location:            https://github.com/NXP/imx-firmware -b lf-6.1.22_2.0.0
+Origin:                      brcm: Broadcom Corporation (LA_OPT_NXP_Software_License - see appendix)
+                             cyw-wifi-bt: Cypress Semiconductor Corporation (LA_OPT_NXP_Software_License - see appendix)
+                             nxp: NXP (LA_OPT_NXP_Software_License)
+
+--------------------------------------------
+
+Package:                     mwifiex.git
+Version:                     git (commit a84df583155bad2a396a937056805550bdf655ab)
+Outgoing License:            GPL-2.0-only
+License File:                LICENSE
+Type of Content:             source
+Description and comments:    NXP Wi-Fi linux SDK
+Release Location:            https://github.com/nxp-imx/mwifiex -b lf-6.6.3_1.0.0
+Origin:                      NXP (GPL-2.0-only)
+
+--------------------------------------------
