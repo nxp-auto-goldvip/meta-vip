@@ -12,6 +12,17 @@ Origin:                      NXP
 BSP packages provided by meta-vip
 --------------------------------------------
 
+Package:                     CoreMark
+Version:                     git (commit eefc986ebd3452d6adde22eafaff3e5c859f29e4)
+Outgoing License:            Apache-2.0
+License File:                LICENSE.md
+Type of Content:             source
+Description and comments:    Industry-standard benchmark that measures the performance of CPUs and MCUs
+Release Location:            https://github.com/eembc/coremark
+Origin:                      EEMBC (Apache-2.0)
+
+--------------------------------------------
+
 Package:                     imx-firmware.git
 Version:                     git (commit 2afa15e77f0b58eade42b4f59c9215339efcca66)
 Outgoing License:            LA_OPT_NXP_Software_License v57 July 2024 - Additional distribution license granted, license in Section 2.3 applies
@@ -33,5 +44,72 @@ Type of Content:             source
 Description and comments:    NXP Wi-Fi linux SDK
 Release Location:            https://github.com/nxp-imx/mwifiex -b lf-6.6.3_1.0.0
 Origin:                      NXP (GPL-2.0-only)
+
+--------------------------------------------
+
+Package:                     plotly.js
+Version:                     v2.12.1
+Outgoing License:            MIT
+License File:                LICENSE
+Type of Content:             source
+Description and comments:    Open-source JavaScript charting library behind Plotly and Dash
+Release Location:            https://github.com/plotly/plotly.js -b v2.12.1
+Origin:                      Plotly (MIT) - https://github.com/plotly/plotly.js
+
+--------------------------------------------
+
+Package:                     python3-commonmark
+Version:                     0.9.1
+Outgoing License:            BSD-3-Clause
+License File:                LICENSE
+Type of Content:             source
+Description and comments:    Python CommonMark parser
+Release Location:            https://pypi.org/project/commonmark/
+Origin:                      Python CommonMark parser (BSD-3-Clause) - https://pypi.org/project/commonmark/
+
+--------------------------------------------
+
+Package:                     python3-pysensors
+Version:                     0.0.4
+Outgoing License:            LGPL-2.1-or-later
+License File:                PKG-INFO
+Type of Content:             source
+Description and comments:    Python bindings to libsensors (via ctypes)
+Release Location:            https://pypi.org/project/PySensors/
+Origin:                      PySensors (LGPL-2.1-or-later) - https://pypi.org/project/PySensors/
+
+--------------------------------------------
+
+Package:                     python3-rich
+Version:                     10.16.2
+Outgoing License:            MIT
+License File:                LICENSE
+Type of Content:             source
+Description and comments:    Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
+Release Location:            https://pypi.org/project/rich/
+Origin:                      Rich (MIT) - https://pypi.org/project/rich/
+
+--------------------------------------------
+
+Package:                     python3-rticonnextdds-connector
+Version:                     1.2.0
+Outgoing License:            LA_OPT_NXP_Software_License v57 July 2024 - No distribution granted, license in Section 2.2 applies
+License File:                LICENSE.PDF
+Type of Content:             source
+Description and comments:    RTI Connector for Python
+Release Location:            https://pypi.org/project/rticonnextdds-connector/
+Origin:                      Real-Time Innovations, Inc (LA_OPT_NXP_Software_License - see appendix)
+
+--------------------------------------------
+
+Package:                     sloci-image
+Version:                     v0.1.2
+Outgoing License:            MIT
+License File:                LICENSE
+Type of Content:             source
+Description and comments:    Simple script for creating single-layer OCI images
+Release Location:            https://github.com/jirutka/sloci-image -b v0.1.2
+Origin:                      Single-Layer OCI Images (MIT) - https://github.com/jirutka/sloci-image
+                             NXP (MIT)
 
 --------------------------------------------
