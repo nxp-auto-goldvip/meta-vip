@@ -1,10 +1,8 @@
-#
 # Copyright 2022-2024 NXP
-#
 
 require recipes-fsl/images/fsl-image-auto.bb
 
-# Add packages common between dom0 and other domUs.
+# Add base OS packages indifferent if an hypervisor is present or not.
 IMAGE_INSTALL += " \
     ${PACKAGES-CORE-benchmark} \
     iptables \
@@ -15,10 +13,6 @@ IMAGE_INSTALL += " \
     openjdk-8 \
     cronie \
     resolvconf \
-    ${@bb.utils.contains('DISTRO_FEATURES', 'pfe-slave', 'pfe-slave', '', d)} \
-    ${@bb.utils.contains('DISTRO_FEATURES', 'optee', 'optee-examples-goldvip', '', d)} \
-    ${@bb.utils.contains('DISTRO_FEATURES', 'goldvip-containerization', 'k3s k3s-airgap-pause-container', '', d)} \
-    ${@bb.utils.contains('DISTRO_FEATURES', 'goldvip-crypto', 'opensc p11-kit', '', d)} \
 "
 
 update_timestamp() {
