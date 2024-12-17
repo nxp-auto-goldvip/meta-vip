@@ -1,6 +1,7 @@
 NXP Software Content Register
 
 Package:                     meta-vip.git
+Version:                     goldvip-1.13.0
 Outgoing License:            LA_OPT_Online_Code_Hosting_License - v1.2 October 2023
 License File:                LICENSE
 Type of Content:             Yocto recipe files
