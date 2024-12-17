@@ -25,7 +25,7 @@ Origin:                      EEMBC (Apache-2.0)
 
 Package:                     imx-firmware.git
 Version:                     git (commit 2afa15e77f0b58eade42b4f59c9215339efcca66)
-Outgoing License:            LA_OPT_NXP_Software_License v57 July 2024 - Additional distribution license granted, license in Section 2.3 applies
+Outgoing License:            LA_OPT_NXP_Software_License v58 November 2024 - Additional distribution license granted, license in Section 2.3 applies
 License File:                LICENSE.txt
 Type of Content:             binary
 Description and comments:    BSP firmware - Bluetooth and WIFI
@@ -93,7 +93,7 @@ Origin:                      Rich (MIT) - https://pypi.org/project/rich/
 
 Package:                     python3-rticonnextdds-connector
 Version:                     1.2.0
-Outgoing License:            LA_OPT_NXP_Software_License v57 July 2024 - No distribution granted, license in Section 2.2 applies
+Outgoing License:            LA_OPT_NXP_Software_License v58 November 2024 - No distribution granted, license in Section 2.2 applies
 License File:                LICENSE.PDF
 Type of Content:             source
 Description and comments:    RTI Connector for Python
