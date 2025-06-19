@@ -7,7 +7,7 @@ SRC_URI = "git://github.com/plotly/plotly.js.git;protocol=https;branch=master"
 SRCREV = "68a4917e8967bb021929e819453ee84650f7bf6f"
 
 S = "${WORKDIR}/git"
-DESTDIR = "/home/root/telemetry-server/static"
+DESTDIR = "/root/telemetry-server/static"
 
 do_install() {
         install -d ${D}/${DESTDIR}

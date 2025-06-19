@@ -1,13 +1,13 @@
 #
 # Based on examples from Scott Murray (Building Container Images with
 # OpenEmbedded and the Yocto Project) ELCe 2018
-# Modifications Copyright 2022, 2024 NXP
+# Modifications Copyright 2022, 2024-2025 NXP
 #
 SUMMARY = "Base VIP Application Container Image"
 LICENSE = "EULA"
 LIC_FILES_CHKSUM = "file://${FSL_EULA_FILE};md5=${FSL_EULA_FILE_MD5SUM}"
 
-OCI_IMAGE_WORKINGDIR ?= "/home/root"
+OCI_IMAGE_WORKINGDIR ?= "/root"
 OCI_IMAGE_ENV_VARS ?= " \
   PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin \
 "

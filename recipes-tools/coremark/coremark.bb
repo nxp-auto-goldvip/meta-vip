@@ -1,4 +1,4 @@
-# Copyright 2023-2024 NXP
+# Copyright 2023-2025 NXP
 SUMMARY = "Embedded Microprocessor Benchmark Consortium Coremark"
 LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://LICENSE.md;md5=0a18b17ae63deaa8a595035f668aebe1"
@@ -20,7 +20,7 @@ do_compile () {
     oe_runmake compile
 }
 
-DESTDIR = "/home/root/benchmark"
+DESTDIR = "/root/benchmark"
 
 do_install() {
     install -d ${D}${DESTDIR}
