@@ -10,7 +10,7 @@ IMAGE_INSTALL += " \
     strongswan \
     ntp ntpq \
     python3-pip \
-    openjdk-8 \
+    java-11 \
     cronie \
     resolvconf \
 "
