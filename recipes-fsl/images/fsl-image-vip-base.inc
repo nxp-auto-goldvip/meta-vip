@@ -13,6 +13,7 @@ IMAGE_INSTALL += " \
     java-11 \
     cronie \
     resolvconf \
+    perf \
 "
 
 # Use the ifup/ifdown services included in busybox.
