@@ -1,4 +1,4 @@
-# Copyright 2022-2025 NXP
+# Copyright 2022-2026 NXP
 
 require recipes-fsl/images/fsl-image-auto.bb
 
@@ -12,9 +12,5 @@ IMAGE_INSTALL += " \
     python3-pip \
     java-11 \
     cronie \
-    resolvconf \
     perf \
 "
-
-# Use the ifup/ifdown services included in busybox.
-BAD_RECOMMENDATIONS += "ifupdown"
