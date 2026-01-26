@@ -1,12 +1,11 @@
 NXP Software Content Register
 
 Package:                     meta-vip.git
-Version:                     goldvip-1.13.0
+Version:                     GrayVIP-1.0.5.3
 Outgoing License:            LA_OPT_Online Code Hosting NXP_Software_License - v1.4 May 2025
 License File:                LICENSE
 Type of Content:             Yocto recipe files
 Description and comments:    Yocto Layer for common components of NXP Vehicle Integration Platforms (VIP)
-Release Location:            https://github.com/nxp-auto-goldvip/meta-vip
 Origin:                      NXP
 
 --------------------------------------------
