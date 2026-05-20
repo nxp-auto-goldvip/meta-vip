@@ -92,17 +92,6 @@ Origin:                      Rich (MIT) - https://pypi.org/project/rich/
 
 --------------------------------------------
 
-Package:                     python3-rticonnextdds-connector
-Version:                     1.2.0
-Outgoing License:            LA_OPT_NXP_Software_License v63 May 2025 - No distribution granted, license in Section 2.2 applies
-License File:                LICENSE.PDF
-Type of Content:             source
-Description and comments:    RTI Connector for Python
-Release Location:            https://pypi.org/project/rticonnextdds-connector/
-Origin:                      Real-Time Innovations, Inc (LA_OPT_NXP_Software_License - see appendix)
-
---------------------------------------------
-
 Package:                     sloci-image
 Version:                     v0.1.2
 Outgoing License:            MIT
